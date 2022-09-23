@@ -1,0 +1,83 @@
+.trade-market-table>tbody>tr{
+	cursor: pointer;
+}
+.button_margin_top{
+    float: left;  margin-top:5px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+    color: #fff;
+    background-color: #121D27;
+}
+
+.nav-pills .nav-link{
+    border-radius:0rem;
+}
+
+.width100percent{
+
+	width: 100% !important;
+}
+#chartTab.nav-pills{
+        border-bottom: 1px solid #2f3032;
+}
+#chartTab .nav-item {
+    margin-right: 10px;
+}
+#chartTab .nav-item:last-child{
+    margin-right: 0;
+}
+#chartTab .nav-link {
+    color: #8e8e8e;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+#chartTab.nav-pills .nav-link.active,
+#chartTab.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+}
+.p-3 li ul{
+    color: #e8eaed;
+    background-color: #2e2f32;
+    margin-right: 200px !important;
+}
+.font-size-12{
+
+    font-size: 12px;
+}
+
+#trading-view {
+    display: flex;
+    justify-content: space-between;
+}
+
+#trading-view #tv_chart_container {
+    flex-grow: 1;
+}
+
+#trading-view ul {
+    list-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 5px 0;
+    line-height: 17px;
+}
+
+#trading-view ul a {
+    font-size: 12px;
+    color: #a0a2ab;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#trading-view ul a:hover {
+    color: white;
+}
+
+#trading-view ul a.selected {
+    color: #00c746;
+}
